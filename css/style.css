@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 /* Custom Properties */
 
 :root {
@@ -36,11 +39,6 @@
 }
 
 /* General styles */
-
-
-html {
-    scroll-behavior: smooth;
-}
 
 
 body {
@@ -141,8 +139,20 @@ header {
     padding: 1em;
 }
 
-.logo {
-    max-width: 100px;
+.logo  span{
+    position: relative;
+    font-size: 40px;
+    border: 3px solid var(--clr-accent);
+    padding: .25em;
+}
+
+.logo span::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 80%;
+    bottom: 0.1em;
+    background: var(--clr-accent);
 }
 
 .nav {
