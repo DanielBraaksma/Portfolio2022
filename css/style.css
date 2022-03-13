@@ -18,7 +18,9 @@ html {
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #f5f107de;
+
+    /* #f5f107b2; */
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -42,7 +44,7 @@ html {
 
 
 body {
-    background: var(--clr-light);
+    background: linear-gradient(#28727c, #e23939);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -442,6 +444,10 @@ header {
     font-weight: var(--fw-bold);
 }
 
+.footer__link span {
+    margin-right: .5em;
+}
+
 .footer__link:hover,
 .social-list__link:hover {
     opacity: .7;
@@ -452,6 +458,7 @@ header {
 }
 
 .social-list {
+
     list-style: none;
     display: flex;
     justify-content: center;
@@ -460,6 +467,7 @@ header {
 }
 
 .social-list__item {
+    font-size: 2em;
     margin: 0 .5em;
 }
 
