@@ -10,7 +10,7 @@ html {
 /* Custom Properties */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-primary: 'Inter', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
 
     --fw-reg: 300;
@@ -355,7 +355,8 @@ header {
 .about-me__body {
     color: #fff;
     font-size: 1.2rem;
-    letter-spacing: 1;
+    line-height: 2;
+    letter-spacing: 2;
 }
 
 .about-me__img {
@@ -523,6 +524,7 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
+    line-height: 2;
+    letter-spacing: 2;
 }
-
-.portfolio-item-individual
