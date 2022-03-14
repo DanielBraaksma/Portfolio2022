@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+* {
+    outline: 1px solid red;
+  }
+
 html {
     scroll-behavior: smooth;
   }
@@ -51,6 +55,7 @@ body {
     font-size: var(--fs-body);
     line-height: 1.6;
 }
+
 
 section {
     padding: 5em 2em;
@@ -141,20 +146,8 @@ header {
     padding: 1em;
 }
 
-.logo  span{
-    position: relative;
-    font-size: 40px;
-    border: 3px solid var(--clr-accent);
-    padding: .25em;
-}
-
-.logo span::before{
-    position: absolute;
-    content: '';
-    height: 2px;
-    width: 80%;
-    bottom: 0.1em;
-    background: var(--clr-accent);
+.logo {
+    max-width: 100px;
 }
 
 .nav {
@@ -224,6 +217,11 @@ header {
     opacity: 0;
 }
 
+
+
+
+
+
 .hamburger {
     display: block;
     position: relative;
@@ -261,6 +259,7 @@ header {
 .intro__img {
     box-shadow: var(--bs);
 }
+
 
 .section__subtitle--intro {
     display: inline-block;
@@ -352,13 +351,6 @@ header {
     margin: 0 auto;
 }
 
-.about-me__body {
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 2;
-    letter-spacing: 2;
-}
-
 .about-me__img {
     box-shadow: var(--bs);
 }
@@ -411,13 +403,6 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
-}
-
-.portfolio__item.placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
 }
 
 .portfolio__img {
@@ -518,6 +503,7 @@ header {
 .portfolio-item-individual a:hover {
     border-color: orange;
     color: orange;
+    background-color: #332d2d;
 }
 
 .portfolio-item-individual p {
