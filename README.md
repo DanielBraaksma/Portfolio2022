@@ -1,3 +1,6 @@
 # Portfolio2022
 
-My portfolio website to share projects with prospective employers.
+**Currently still in progress
+
+
+I am creating a portfolio website to share projects with prospective employers.
