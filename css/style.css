@@ -458,6 +458,12 @@ header {
     overflow: hidden;
 }
 
+.portfolio-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolio__img {
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
