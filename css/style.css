@@ -295,6 +295,7 @@ header {
             "img title"
             "img subtitle";
         grid-template-columns: min-content auto;
+        justify-content: center;
     }
 
     .intro__img {
