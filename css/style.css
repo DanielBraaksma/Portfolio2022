@@ -352,6 +352,10 @@ header {
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 4em;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: var(--bs);
 }
 
 .tools1-container {
@@ -462,6 +466,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
+    min-height: 142px;
 }
 
 .portfolio__img {
