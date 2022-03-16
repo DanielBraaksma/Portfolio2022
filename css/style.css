@@ -109,6 +109,12 @@ h3 {
     margin: 0;
 }
 
+h1 {
+
+    color: #fff;
+    /* color: rgb(24, 23, 23); */
+}
+
 h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
@@ -129,6 +135,10 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+}
+
+.section__title--about {
+    color: #fff;
 }
 
 .section__subtitle--intro,
@@ -406,6 +416,11 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+    background-color: #fff;
+    max-width: 200px;
+    border-radius: 50%;
+    padding: .5em;
+
 }
 
 .about-me__body {
