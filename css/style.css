@@ -167,6 +167,7 @@ header {
 
 .logo  span{
     position: relative;
+    color: var(--clr-accent);
     font-size: 40px;
     border: 3px solid var(--clr-accent);
     padding: .25em;
