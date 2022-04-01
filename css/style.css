@@ -478,6 +478,9 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    margin: .5em;
+    min-height: 150px;
+    /* height: 95%; */
 }
 
 .portfolio-placeholder {
