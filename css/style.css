@@ -471,6 +471,8 @@ header {
 }
 
 .portfolio {
+    /* display: flex;
+    flex-direction: column; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -479,8 +481,7 @@ header {
     background: var(--clr-accent);
     overflow: hidden;
     margin: .5em;
-    min-height: 150px;
-    /* height: 95%; */
+    height: calc(50% -10px)
 }
 
 .portfolio-placeholder {
