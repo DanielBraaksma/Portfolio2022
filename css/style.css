@@ -607,3 +607,7 @@ header {
     line-height: 2;
     letter-spacing: 2;
 }
+
+.home-logo {
+    text-decoration: none;
+}
