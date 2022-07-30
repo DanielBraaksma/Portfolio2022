@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Braaksma Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="home-logo">
+            <div class="logo">
+                <span>DB</span>
+            </div>
+        </a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro project">
+        <h1 class="section__title section__title--intro">
+            Adventures with<strong>Daniel</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A personal travel site</p>
+        <!-- <img src="img/adventures-with-daniel.herokuapp.com.png" alt="sample picture of travel portfolio website" class="intro__img"> -->
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>This is my final project for Code Louisville's May web development course 2.
+            I created this application as a personal travel site to visually tell the
+            story of places I have been to/lived and document future travels. It was built with MongoDB, Express, React and Node.
+            It uses several packages as well as "svgMap" JavaScript library by Stephan Wagner.
+        </p>
+        <a href="https://adventures-with-daniel.herokuapp.com/" target="_blank">Live Site</a>
+        <a href="https://github.com/DanielBraaksma/adventures-with-daniel" target="_blank">Github</a>
+        <img class="main-portfolio-img" src="img/adventures-with-daniel.herokuapp.com.png" alt="another picture of travel portfolio website">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <a href="mailto:danebraaksma@gmail.com" class="footer__link"><span><i class="fa fa-envelope"
+                    aria-hidden="true"></i></span>danebraaksma@gmail.com</a>
+        <p class="footer__link"><span><i class="fa fa-phone" aria-hidden="true"></i></span><a
+            href="tel:502-931-2234">502-931-2234</a></p>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com/in/danielbraaksma/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/DanielBraaksma" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
